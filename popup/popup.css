@@ -1,0 +1,136 @@
+body {
+    width: 300px;
+    padding: 15px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  h3 {
+    margin: 0 0 10px 0;
+    color: #333;
+  }
+  
+  .setting {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .setting label {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .setting input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  #save-settings {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #save-settings:hover {
+    background-color: #45a049;
+  }
+  
+  /* Support section styles same as content.css */
+  .support-section {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+  }
+  
+  .support-section h4 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .support-email {
+    margin-top: 10px;
+  }
+  
+  .support-email a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  .support-email a:hover {
+    text-decoration: underline;
+  }
+  
+  .donation-card {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border: 1px solid #e1e1e1;
+  }
+  
+  .card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .paypal-logo {
+    width: 80px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .card-header h5 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .card-text {
+    margin: 10px 0;
+    color: #666;
+  }
+  
+  .donation-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  #donation-amount {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 60px;
+  }
+  
+  #donate-button {
+    background-color: #0070ba;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  #donate-button:hover {
+    background-color: #005ea6;
+  }
+  
+  #donate-button img {
+    width: 16px;
+    height: 16px;
+  }
