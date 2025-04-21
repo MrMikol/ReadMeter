@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Time to Read",
+    "name": "ReadMeter",
     "version": "1.0",
-    "description": "Estimates reading time for articles",
+    "description": "Shows a small floating box at the top of articles with an estimate time to read.",
     "icons": {
       "16": "icons/icon16.png",
       "48": "icons/icon48.png",
